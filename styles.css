@@ -1,4 +1,162 @@
 * {
     font-family: 'Lato', sans-serif;
+    margin: 0;
+}
 
+section{
+    margin-bottom: 100px;
+    
+}
+
+.span-pink{
+    color: #E55473;
+}
+
+.hero{
+    padding-bottom: 150px;
+    background: rgba(229, 84, 115, 0.10);
+    height: 550px;
+    display: flex;
+}
+
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 10%;
+}
+h1{
+    padding-top: 15%;
+    font-size: 80px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.half-width img{
+    width: 82%;
+    background-position: bottom right, left;
+}
+.anchor-button{
+    margin-top: 30px;
+    text-decoration: none;
+    background: #E55473;
+    padding: 20px 40px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 400;
+}
+p{
+    
+    font-size: 18px;
+    color: dimgray;
+    padding-bottom: 32px;
+}
+
+.our-feature-imgs{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.our-feature-img{
+    width: 460px;
+    height: 530px;
+    border-radius: 300px 300px 0px 0px;
+
+}
+.our-feature-img >img{
+    background-position: bottom;
+}
+.our-feature-img1{
+
+    background: rgba(167, 33, 98, 0.15);
+}
+.our-feature-img2{
+
+background: rgba(5, 151, 160, 0.15);
+}
+.our-feature-img3{
+
+background: rgba(71, 125, 17, 0.15);
+}
+
+
+.img-name{
+    color: #111010;
+    text-decoration: underline;
+}
+
+
+.hot-deal{
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    
+}
+.hot-deal-text{
+    padding: 90px 0px;
+    padding-left: 10%;
+    text-align: center;
+}
+.hot-deal h3{
+    font-size: 40px;
+    font-weight: 800px;
+}
+.hot-deal-img{
+    padding: 90px 0px;
+    width: 250px;
+}
+
+.insta{
+    margin: 0 10% ;
+    padding-bottom: 100px;
+}
+
+.insta-imgs {
+    display: flex;
+    gap: 20px;
+}
+
+.insta-text{
+    text-align: center;
+}
+.insta-text h3{
+    font-size: 40px;
+    font-weight: 800px;
+}
+
+.get-latest{
+    margin: 0 10%;
+    background-image: url('./Asset/Rectangle\ 9.png');
+    height: 450px;
+    text-align: center;
+}
+.get-latest .get-latest-text h3{
+    padding-top: 150px;
+    font-size: 40px;
+    font-weight: 800px;
+}
+.get-latest-input-div input{
+    margin-right: 14px;
+    border: 0;
+    width: 700px;
+    padding: 7px 30px;
+    height: 48px;
+}
+
+footer{
+    height: 450px;
+    text-align: center;
+    background: #111010;
+    margin-top: 100px;
+}
+footer h3{
+    padding-top: 180px;
+    font-size: 40px;
+    font-weight: 800px;
+    color: aliceblue;
+}
+
+.footer-p{
+    color: aliceblue;
 }
